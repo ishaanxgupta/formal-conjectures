@@ -20,7 +20,7 @@ import FormalConjectures.ForMathlib.NumberTheory.BirchSwinnertonDyer
 /-!
 # Birch and Swinnerton-Dyer conjecture
 
-The **Birch and Swinnerton-Dyer conjecture** (BSD conjecture) relates the algebraic rank of an
+The Birch and Swinnerton-Dyer conjecture (BSD conjecture) relates the algebraic rank of an
 elliptic curve over ℚ to the analytic rank (the order of vanishing of its L-function at s = 1).
 
 Specifically, the weak BSD conjecture states that the algebraic rank equals the analytic rank.
@@ -50,7 +50,7 @@ the algebraic rank equals the analytic rank.
 That is, the rank of the group of rational points E(ℚ) equals the order of vanishing
 of the L-function L(E, s) at s = 1.
 -/
-@[category research open, AMS 11G05, AMS 11G40]
+@[category research open, AMS 11 14]
 theorem weak_Birch_Swinnerton_Dyer_conjecture :
     algebraicRank E = EllipticCurve.analyticRank E := by
   sorry

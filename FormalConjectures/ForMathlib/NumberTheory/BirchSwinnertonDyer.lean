@@ -18,12 +18,6 @@ import Mathlib.AlgebraicGeometry.EllipticCurve.Weierstrass
 import Mathlib.Data.Complex.Basic
 
 /-!
-# Minimal definitions for the Birch and Swinnerton-Dyer conjecture
-
-This file provides minimal stub definitions needed to state the Birch and Swinnerton-Dyer
-conjecture. These are lightweight definitions with `sorry` for implementations, not full
-mathematical constructions.
-
 *Reference:* [Wikipedia](https://en.wikipedia.org/wiki/Birch_and_Swinnerton-Dyer_conjecture)
 -/
 
@@ -34,8 +28,7 @@ open Complex
 /--
 The Hasse-Weil L-function L(E, s) of an elliptic curve E over ℚ.
 
-This is a minimal stub. In the full definition, L(E, s) is defined as an Euler product
-over primes, with factors depending on the reduction type of E modulo each prime.
+L(E, s) is defined as an Euler product over primes, with factors depending on the reduction type of E modulo each prime.
 
 *Reference:* [Wikipedia](https://en.wikipedia.org/wiki/Hasse%E2%80%93Weil_L-function)
 -/
